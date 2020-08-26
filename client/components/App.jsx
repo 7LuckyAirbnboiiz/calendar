@@ -10,11 +10,12 @@ const Container = styled.div`
   width: 420px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 30px;
+  top: 60px;
+  position: sticky;
 `;
 
 const Menu = styled.div`
-  position: sticky;
-  top: 80px;
   margin-top: 48px;
   border: 1px solid rgb(221, 221, 221);
   border-radius: 12px;
